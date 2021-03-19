@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+body{
+	background-color: #383838;
+}
+.forms{
+	width: 500px;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 25px 25px 25px 25px;
+}
+.formulario{
+	text-align: center;
+	width: 50%;
+	padding: 80px;
+	background-color: #06111C;
+	border: 1px solid;
+	border-radius: 10px;
+	box-shadow: 0 0 10px, 0 0 10px;
+}
+
+label{
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #fff;
+}
+.box{
+	padding: 0;
+	background: none;
+	border-radius: 5px;
+}
+
+.sexos{
+	background: none;
+ 	border: 2px solid white;
+ 	border-color: #5E5D5E;
+ 	outline: none;
+ 	width: 150px;
+ 	padding: 10px;
+ 	border-radius: 20px;
+ 	transition: 0.25s;
+ 	color: #fff;
+
+}
+.sexos:focus{
+	background: none;
+	width: 105%;
+	border-color:#11D632;
+	color: #000;
+}
+
+
+ input[type="text"], input[type="password"], input[type="email"]{
+ 	background: none;
+ 	border: 2px solid;
+ 	border-color: #5E5D5E;
+ 	outline: none;
+ 	width: 150px;
+ 	padding: 10px;
+ 	border-radius: 20px;
+ 	transition: 0.25s;
+ 	color: #fff;
+}
+ input[type="text"]:focus, input[type="password"]:focus , input[type="email"]:focus{
+	background: none;
+ 	width: 105%;
+	border-color:#11D632;
+}
+
+input[type="submit"], input[type="reset"]{
+	background: none;
+ 	border: 1px solid white;
+ 	outline: none;
+ 	width: 120px;
+ 	padding: 10px;
+ 	border-radius:15px;
+ 	transition: 0.25s;
+ 	color: #fff;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+	border: 2px solid;
+ 	border-color: #5E5D5E;
+	background-color: #38CC38;
+	transition: 0.25s
+}
